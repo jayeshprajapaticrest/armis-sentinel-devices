@@ -5,7 +5,7 @@
         "FunctionName": {
             "defaultValue": "ArmisDevices",
             "minLength": 1,
-            "maxLength": 15,
+            "maxLength": 11,
             "type": "string"
         },
         "WorkspaceID": {
