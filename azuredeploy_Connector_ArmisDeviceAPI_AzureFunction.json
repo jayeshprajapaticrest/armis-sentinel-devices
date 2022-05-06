@@ -27,6 +27,10 @@
         "ArmisDeviceTableName":{
             "type": "string",
             "defaultValue": "<ArmisDeviceTableName>"
+        },
+        "ArmisSchedule":{
+            "type": "string",
+            "defaultValue": "<Cron Expression>"
         }
     },
     "variables": {
@@ -159,6 +163,7 @@
                         "ArmisSecretKey": "[parameters('ArmisSecretKey')]",
                         "ArmisURL": "[parameters('ArmisURL')]",
                         "ArmisDeviceTableName": "[parameters('ArmisDeviceTableName')]",
+                        "Schedule": "[parameters('ArmisSchedule')]",
                         "WEBSITE_RUN_FROM_PACKAGE": "https://github.com/jayeshprajapaticrest/armis-sentinel-devices/blob/main/ArmisDeviceSentinelConnector.zip?raw=true"
                     }
                 }
