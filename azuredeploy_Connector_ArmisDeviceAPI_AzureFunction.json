@@ -164,7 +164,7 @@
                         "ArmisURL": "[parameters('ArmisURL')]",
                         "ArmisDeviceTableName": "[parameters('ArmisDeviceTableName')]",
                         "Schedule": "[parameters('ArmisSchedule')]",
-                        "WEBSITE_RUN_FROM_PACKAGE": "https://github.com/jayeshprajapaticrest/armis-sentinel-devices/blob/main/ArmisDeviceSentinelConnector.zip?raw=true"
+                        "WEBSITE_RUN_FROM_PACKAGE": "https://github.com/jayeshprajapaticrest/armis-sentinel-devices/blob/Armis-Latest-Build-23052022/ArmisDeviceSentinelConnector.zip?raw=true"
                     }
                 }
             ]
