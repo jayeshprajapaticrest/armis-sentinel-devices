@@ -31,6 +31,11 @@
         "ArmisSchedule":{
             "type": "string",
             "defaultValue": "<Cron Expression>"
+        },
+        "AvoidDuplicates":{
+            "type": "bool",
+            "defaultValue": true,
+            "toolTip": "This is a tool tip"
         }
     },
     "variables": {
@@ -164,6 +169,7 @@
                         "ArmisURL": "[parameters('ArmisURL')]",
                         "ArmisDeviceTableName": "[parameters('ArmisDeviceTableName')]",
                         "Schedule": "[parameters('ArmisSchedule')]",
+                        "AvoidDuplicates": "[parameters('AvoidDuplicates')]",
                         "WEBSITE_RUN_FROM_PACKAGE": "https://github.com/jayeshprajapaticrest/armis-sentinel-devices/blob/Armis-Latest-Build-23052022/ArmisDeviceSentinelConnector.zip?raw=true"
                     }
                 }
